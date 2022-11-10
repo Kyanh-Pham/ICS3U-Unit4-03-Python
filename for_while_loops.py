@@ -26,9 +26,9 @@ def main():
             else:
                 print("{0} is not positive.".format(positive_integer))
         else:
-            print("{0} is not an integer".format(positive_float))
+            print("{0} is not an integer.".format(positive_float))
     except ValueError:
-        print("{0} is not a valid input".format(positive_string))
+        print("{0} is not a valid input.".format(positive_string))
     finally:
         print("\nDone.")
 
